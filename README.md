@@ -36,14 +36,14 @@ This app allows users to add, view, and manage a list of circle objects. It demo
  src/
 │ ├── Main.java 
 
-│ 
-│ │ └── CircleController.java
 
-│ 
-│ │ └── Circle.java
+│ └── CircleController.java
 
 
-│ │ └── CircleView.fxml
+│ └── Circle.java
+
+
+└── CircleView.fxml
 
 
 
