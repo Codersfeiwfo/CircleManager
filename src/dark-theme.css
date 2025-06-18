@@ -1,0 +1,38 @@
+.root {
+    -fx-background-color: #121212;
+    -fx-text-fill: #e0e0e0;
+}
+
+.label, .text-field, .button, .toggle-button {
+    -fx-text-fill: #e0e0e0;
+}
+
+.text-field {
+    -fx-background-color: #1e1e1e;
+    -fx-background-radius: 8;
+    -fx-border-color: #333;
+    -fx-border-radius: 8;
+}
+
+.table-view {
+    -fx-background-color: #1e1e1e;
+    -fx-control-inner-background: #1e1e1e;
+    -fx-table-cell-border-color: #333;
+}
+
+.table-view .column-header,
+.table-view .column-header .label {
+    -fx-text-fill: #e0e0e0;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #2a2a2a;
+}
+
+.table-row-cell:even {
+    -fx-background-color: #1e1e1e;
+}
+
+.button:hover, .toggle-button:hover {
+    -fx-background-color: #555;
+}
